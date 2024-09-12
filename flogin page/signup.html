@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+<body>
+    <form action="login.html" method="post">
+    <fieldset>
+    <legend>Sign Up here!</legend>
+   
+<label for="Username">UserName</label>
+<input type="text" id="username" placeholder="UserName" pattern="[A-Za-z]{10}" required>
+<br>
+<br>
+<label for="password1">Password</label>
+<input type="password" id="password" placeholder="Password" pattern="(?=.*[a-z])(?=.*[A-Z])
+(?=.*[0-9])(?=.*[!@#$%^&*]){12}" required>
+<br>
+<br>
+<label for="password2">Retype-Password</label>
+<input type="password" id="password" placeholder="Password" pattern="(?=.*[a-z])(?=.*[A-Z])
+(?=.*[0-9])(?=.*[!@#$%^&*]){12}" required>
+<br>
+<br>
+<label for="mail">Email</label>
+<input type="email" id="mail" placeholder="Enter Mail" pattern="[a-z0-9A-Z._]+@[a-z]+\.[a-z]+" required>
+<br>
+<br>
+<label for="phno">Phone no</label>
+<input type="tel:9553129584" id="phno" placeholder="Enter number" pattern="[0-9]+" required>
+<br>
+<br>
+<input type="submit">
+
+    </form>
+</fieldset>
+</body>
+</html>
